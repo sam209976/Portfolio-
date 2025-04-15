@@ -11,7 +11,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
-          action="https://formspree.io/f/mpwpnoay" // Replace with your real Formspree endpoint
+          action="https://formspree.io/f/mpwpnoay"  // <-- Replace with your Formspree endpoint
           method="POST"
           className="mt-12 flex flex-col gap-8"
         >
@@ -20,28 +20,30 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              required
               placeholder="What's your name?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
+
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
               name="email"
-              required
               placeholder="What's your email?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
+
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows={7}
+              rows="7"
               name="message"
-              required
               placeholder="What do you want to say?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
