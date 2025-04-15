@@ -100,7 +100,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2024 - Present",
     points: [
-      "Built & deployed chatbots for client websites using Chatling, Zapier.",
+      "Customized and integrated AI chatbots for client websites.",
       "Handled end-to-end domain setup, hosting, email configuration, SEO.",
       "Created pitch decks, client-specific bots, and lead generation funnels.",
       "Integrated analytics, WhatsApp API, and lead capture systems.",
