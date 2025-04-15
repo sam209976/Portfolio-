@@ -72,8 +72,8 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm Sameer — an AI chatbot developer and automation specialist. I help businesses turn visitors into leads 
-        by integrating custom chatbots, smart automations, and lead capture systems. From website setup to domain 
+        I'm Sameer — an AI chatbot strategist and automation consultant. I help businesses turn visitors into leads 
+        by integrating custom chatbots, smart automations. From website setup to domain 
         linking, email authentication, and SEO optimization, I build conversion-focused digital systems that work 
         24/7. Let's build something that grows your business even while you sleep!
       </p>
