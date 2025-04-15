@@ -139,7 +139,6 @@ const projects = [
     { name: "chatling", color: "blue-text-gradient" },
     { name: "zapier", color: "green-text-gradient" },
   ],
-    source_code_link: "#",
 },
   {
     name: "Smart Water Dispenser",
@@ -149,7 +148,7 @@ const projects = [
       { name: "sensors", color: "green-text-gradient" },
       { name: "testing", color: "blue-text-gradient" },
     ],
-    source_code_link: "#",
+    
   },
   {
     name: "Mobile Controlled Lighting",
@@ -159,7 +158,7 @@ const projects = [
       { name: "iot", color: "blue-text-gradient" },
       { name: "android", color: "pink-text-gradient" },
     ],
-    source_code_link: "#",
+    
   },
 ];
 
