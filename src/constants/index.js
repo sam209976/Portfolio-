@@ -132,18 +132,16 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "V2C.AI Business",
-    description:
-      "Designed, developed, and deployed chatbot-based automation systems for client websites, including WhatsApp integration and real-time analytics.",
-    tags: [
-      { name: "chatling", color: "blue-text-gradient" },
-      { name: "zapier", color: "green-text-gradient" },
-      { name: "seo", color: "pink-text-gradient" },
-    ],
-    image: "https://source.unsplash.com/featured/?chatbot",
-    source_code_link: "#",
-  },
+{
+  name: "V2C.AI Business",
+  description: "Designed and deployed chatbot-based automation systems for clients...",
+  tags: [
+    { name: "chatling", color: "blue-text-gradient" },
+    { name: "zapier", color: "green-text-gradient" },
+  ],
+  image: "/v2c.png", // or .png depending on file
+  source_code_link: "#",
+},
   {
     name: "Smart Water Dispenser",
     description:
@@ -152,7 +150,7 @@ const projects = [
       { name: "sensors", color: "green-text-gradient" },
       { name: "testing", color: "blue-text-gradient" },
     ],
-    image: "https://source.unsplash.com/featured/?water,technology",
+    image: "https://unsplash.com/photos/white-soda-maker-on-desk-Yy5feAo-5jc",
     source_code_link: "#",
   },
   {
@@ -163,7 +161,7 @@ const projects = [
       { name: "iot", color: "blue-text-gradient" },
       { name: "android", color: "pink-text-gradient" },
     ],
-    image: "https://source.unsplash.com/featured/?smart,light",
+   image: "https://unsplash.com/photos/a-cell-phone-is-connected-to-a-light-switch-We56jns_zLE",
     source_code_link: "#",
   },
 ];
